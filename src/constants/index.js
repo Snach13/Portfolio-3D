@@ -24,6 +24,8 @@ import {
   tripguide,
   threejs,
   expressjs,
+  postman,
+  svelte,
 } from "../assets";
 
 export const navLinks = [
@@ -116,6 +118,14 @@ const technologies = [
   {
     name: "Express JS",
     icon: expressjs,
+  },
+  {
+    name: "Postman",
+    icon: postman,
+  },
+  {
+    name: "Svelte",
+    icon: svelte,
   },
 ];
 

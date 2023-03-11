@@ -23,7 +23,9 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
-import expressjs from "./tech/expressjs.png";
+import expressjs from "./tech/expressjs.webp";
+import postman from "./tech/postman.png";
+import svelte from "./tech/svelte.png";
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
@@ -36,6 +38,7 @@ import tripguide from "./tripguide.png";
 
 export {
   logo,
+  svelte,
   logonobackground,
   transparentlogo,
   faviconpng,
@@ -54,6 +57,7 @@ export {
   javascript,
   mongodb,
   nodejs,
+  postman,
   reactjs,
   redux,
   expressjs,
