@@ -10,11 +10,11 @@ import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
 
-import css from "./tech/css.png";
+import css from "./tech/css.webp";
 import docker from "./tech/docker.png";
 import figma from "./tech/figma.png";
 import git from "./tech/git.png";
-import html from "./tech/html.png";
+import html from "./tech/html.webp";
 import javascript from "./tech/javascript.png";
 import mongodb from "./tech/mongodb.png";
 import nodejs from "./tech/nodejs.png";
@@ -26,6 +26,10 @@ import threejs from "./tech/threejs.svg";
 import expressjs from "./tech/expressjs.webp";
 import postman from "./tech/postman.png";
 import svelte from "./tech/svelte.png";
+import nextjs from "./tech/nextjs.png";
+import mysql from "./tech/mysql.png";
+import postgresql from "./tech/postgresql.png";
+import graphql from "./tech/graphql.png";
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
@@ -35,10 +39,16 @@ import tesla from "./company/tesla.png";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import dalleHomePage from "./dalleHomePage.webp";
 
 export {
   logo,
   svelte,
+  nextjs,
+  mysql,
+  postgresql,
+  graphql,
+  dalleHomePage,
   logonobackground,
   transparentlogo,
   faviconpng,

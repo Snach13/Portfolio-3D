@@ -7,6 +7,10 @@ import {
   typescript,
   html,
   css,
+  nextjs,
+  mysql,
+  postgresql,
+  graphql,
   reactjs,
   redux,
   tailwind,
@@ -20,6 +24,7 @@ import {
   tesla,
   shopify,
   carrent,
+  dalleHomePage,
   jobit,
   tripguide,
   threejs,
@@ -64,14 +69,6 @@ const services = [
 
 const technologies = [
   {
-    name: "HTML 5",
-    icon: html,
-  },
-  {
-    name: "CSS 3",
-    icon: css,
-  },
-  {
     name: "JavaScript",
     icon: javascript,
   },
@@ -82,6 +79,10 @@ const technologies = [
   {
     name: "React JS",
     icon: reactjs,
+  },
+  {
+    name: "NextJs",
+    icon: nextjs,
   },
   {
     name: "Redux Toolkit",
@@ -99,9 +100,10 @@ const technologies = [
     name: "MongoDB",
     icon: mongodb,
   },
+
   {
-    name: "Three JS",
-    icon: threejs,
+    name: "Graphql",
+    icon: graphql,
   },
   {
     name: "git",
@@ -122,10 +124,6 @@ const technologies = [
   {
     name: "Postman",
     icon: postman,
-  },
-  {
-    name: "Svelte",
-    icon: svelte,
   },
 ];
 
@@ -212,9 +210,8 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
-    description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+    name: "DALL-E",
+    description: "Full Stack MERN AI Image Generation App.",
     tags: [
       {
         name: "react",
@@ -228,9 +225,17 @@ const projects = [
         name: "tailwind",
         color: "pink-text-gradient",
       },
+      {
+        name: "nodejs",
+        color: "green-text-gradient",
+      },
+      {
+        name: "express js",
+        color: "black-text-gradient",
+      },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: dalleHomePage,
+    source_code_link: "https://github.com/Snach13/DALL-E-mern-stack",
   },
   {
     name: "Job IT",
