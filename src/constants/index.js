@@ -69,6 +69,14 @@ const services = [
 
 const technologies = [
   {
+    name: "HTML",
+    icon: html,
+  },
+  {
+    name: "CSS",
+    icon: css,
+  },
+  {
     name: "JavaScript",
     icon: javascript,
   },
@@ -80,10 +88,7 @@ const technologies = [
     name: "React JS",
     icon: reactjs,
   },
-  {
-    name: "NextJs",
-    icon: nextjs,
-  },
+
   {
     name: "Redux Toolkit",
     icon: redux,
@@ -99,6 +104,10 @@ const technologies = [
   {
     name: "MongoDB",
     icon: mongodb,
+  },
+  {
+    name: "PostgreSql",
+    icon: postgresql,
   },
 
   {
@@ -175,8 +184,9 @@ const experiences = [
     iconBg: "#E6DEDD",
     date: "Jan 2023 - Present",
     points: [
-      "Write and published Tech Blogs on hashnode.",
-      "Technical Content Writer whos wrote blogs on different topics.",
+      "Established a personal brand as a subject matter expert by writing and publishing multiple technical blogs on Hashnode, a popular online publishing platform.",
+      "Developed and implemented content strategies, producing engaging and informative articles on diverse topics ranging from emerging technologies to industry trends.",
+      "Proven track record as a technical content writer, adept at producing high-quality articles, tutorials, and whitepapers that simplify complex concepts and resonate with technical and non-technical audiences a like",
     ],
   },
 ];
@@ -184,7 +194,7 @@ const experiences = [
 const testimonials = [
   {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
+      "I thought it was impossible to make a website as beautiful as our product, but Nachi proved me wrong.",
     name: "Sara Lee",
     designation: "CFO",
     company: "Acme Co",
@@ -238,42 +248,61 @@ const projects = [
     source_code_link: "https://github.com/Snach13/DALL-E-mern-stack",
   },
   {
-    name: "Job IT",
+    name: "Reddit-clone",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Built a Reddit clone from scratch using React, Firebase, Next.js, Chakra UI, and TypeScript.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
-        color: "green-text-gradient",
+        name: "typescript",
+        color: "black-text-gradient",
       },
       {
-        name: "scss",
-        color: "pink-text-gradient",
+        name: "firebase",
+        color: "orange-text-gradient",
+      },
+      {
+        name: "NextJs",
+        color: "black-text-gradient",
+      },
+      {
+        name: "ChakraUI",
+        color: "cyan-text-gradient",
       },
     ],
     image: jobit,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/Snach13/Reddit",
   },
   {
-    name: "Trip Guide",
-    description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+    name: "Netflix-clone",
+    description: "Under Maintainance.",
     tags: [
       {
-        name: "nextjs",
+        name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "Javascript",
         color: "green-text-gradient",
       },
       {
-        name: "css",
-        color: "pink-text-gradient",
+        name: "NodeJs",
+        color: "green-text-gradient",
+      },
+      {
+        name: "MongoDB",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Express",
+        color: "white-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "blue-text-gradient",
       },
     ],
     image: tripguide,
